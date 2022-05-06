@@ -26,7 +26,9 @@
            <i class="el-icon-s-fold"></i>
          </div>
          <div class="title-text">我是标题</div>
-         <div class="title-operation" @click="exit">退出</div>
+         <div class="title-operation">
+           <el-button type="danger" plain @click="exit">退出</el-button>
+         </div>
        </div>
        <!-- 嵌套路由显示区域 -->
        <div class="right-box-content">
